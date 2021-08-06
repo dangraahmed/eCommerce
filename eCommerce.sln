@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E21C0A35-D759-4BB0-A04F-8A8923C5728F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{54E52582-5A30-423A-A229-680FBCFE26A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{3AF3C041-F403-451F-A86A-D5C5DD2016A7}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54E52582-5A30-423A-A229-680FBCFE26A8} = {E21C0A35-D759-4BB0-A04F-8A8923C5728F}
+		{3AF3C041-F403-451F-A86A-D5C5DD2016A7} = {54E52582-5A30-423A-A229-680FBCFE26A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E0872313-D65E-49EB-8586-8F3365CEC8C1}
