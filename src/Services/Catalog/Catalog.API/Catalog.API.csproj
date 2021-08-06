@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>eCommerce.Services.Catalog.API</AssemblyName>
+    <RootNamespace>eCommerce.Services.Catalog.API</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
